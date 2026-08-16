@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayush Raj | Systems-Oriented Software Engineer & Cybersecurity Enthusiast</title>
+  <meta name="description" content="Portfolio of Ayush Raj, 2nd-year BCA student at AN College, Patna (Patliputra University). Specializing in Web Development, Mobile App Development, and Cybersecurity.">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+</head>
+<body>
+
+  <!-- Ambient Glass Refraction Background Orbs -->
+  <div class="ambient-orb orb-1"></div>
+  <div class="ambient-orb orb-2"></div>
+  <div class="ambient-orb orb-3"></div>
+
+  <!-- ==================== HEADER / NAVIGATION ==================== -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo" aria-label="Ayush Raj Portfolio Home">
+        <div class="brand-icon">AR</div>
+        <div class="brand-title">
+          <span class="brand-name">Ayush Raj</span>
+          <span class="brand-tag">BCA · Systems & Sec</span>
+        </div>
+      </a>
+
+      <!-- Navigation Links -->
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="about.html" class="nav-link">About & Skills</a></li>
+        <li><a href="services.html" class="nav-link">Services & Projects</a></li>
+        <li><a href="contact.html" class="nav-link">Contact & Hire</a></li>
+      </ul>
+
+      <!-- Action Buttons -->
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle Theme">
+          <span id="themeIcon">☀️</span>
+        </button>
+        <a href="contact.html" class="btn btn-primary btn-sm">Hire Me</a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Navigation Menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN CONTENT ==================== -->
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Hero Intro Column -->
+          <div class="hero-intro">
+            <div>
+              <span class="status-badge">
+                <span class="status-dot"></span>
+                Available for Freelance & Internships
+              </span>
+            </div>
+            
+            <h1 class="hero-title">
+              Crafting Scalable Apps & <br>
+              <span class="hero-highlight">Securing Digital Systems</span>
+            </h1>
+
+            <p class="hero-subtitle">
+              Hi, I'm <strong>Ayush Raj</strong> — a passionate 2nd-year <strong>BCA student</strong> at <strong>AN College, Patna (Patliputra University)</strong>. I combine rigorous computer science fundamentals with practical engineering in <strong>Web Development</strong>, <strong>Mobile Apps</strong>, and <strong>Defensive & Offensive Cybersecurity</strong>.
+            </p>
+
+            <div class="hero-actions">
+              <a href="services.html" class="btn btn-primary">
+                <span>View Projects & Services</span>
+                <span class="btn-icon">→</span>
+              </a>
+              <a href="about.html" class="btn btn-secondary">
+                <span>My Background & Skills</span>
+              </a>
+            </div>
+
+            <div class="hero-socials">
+              <a href="https://github.com/Cooldude69max" target="_blank" rel="noopener noreferrer" class="social-link">
+                <span>🐙 GitHub: <span class="tag-badge">@Cooldude69max</span></span>
+              </a>
+              <a href="https://www.linkedin.com/in/ayush-raj-39356b199/" target="_blank" rel="noopener noreferrer" class="social-link">
+                <span>💼 LinkedIn: <span class="tag-badge">Ayush Raj</span></span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Terminal / Interactive Console Column -->
+          <div class="hero-interactive">
+            <div class="terminal-card">
+              <div class="terminal-header">
+                <div class="terminal-controls">
+                  <span class="ctrl-dot ctrl-red"></span>
+                  <span class="ctrl-dot ctrl-yellow"></span>
+                  <span class="ctrl-dot ctrl-green"></span>
+                </div>
+                <div class="terminal-title">bash — ayush@systems-sec: ~</div>
+                <div style="font-size:0.75rem; color:var(--text-muted);">v2.4.0</div>
+              </div>
+
+              <div class="terminal-body" id="terminalOutput">
+                <div class="term-line">
+                  <span class="term-green">ayush-sec init:</span> Systems initialized successfully.
+                </div>
+                <div class="term-line">
+                  Type <span class="term-cyan">"help"</span> for available commands, or try <span class="term-cyan">"about"</span>, <span class="term-cyan">"skills"</span>, <span class="term-cyan">"services"</span>, <span class="term-cyan">"education"</span>.
+                </div>
+              </div>
+
+              <div style="padding: 0.75rem 1.25rem; border-top: 1px solid var(--border-color); background: var(--term-bg);">
+                <div class="terminal-input-row">
+                  <span class="terminal-prompt">visitor@ayush-sec:~$</span>
+                  <input type="text" id="terminalInput" class="terminal-input" placeholder="Type a command (e.g. help, skills)..." autocomplete="off" spellcheck="false">
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- METRICS / STATS BAR -->
+    <section class="stats-bar">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <div class="stat-number">2nd<span class="stat-plus">Year</span></div>
+            <div class="stat-label">BCA (2025–2028) @ AN College</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">15<span class="stat-plus">+</span></div>
+            <div class="stat-label">Software & Web Projects Built</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">50<span class="stat-plus">+</span></div>
+            <div class="stat-label">CTF Challenges & Security Labs</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">3<span class="stat-plus">Core</span></div>
+            <div class="stat-label">Disciplines: Web, Apps, CyberSec</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CORE SERVICES OVERVIEW -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">⚡ What I Do</span>
+          <h2 class="section-title">End-to-End Development & Security</h2>
+          <p class="section-desc">
+            Combining modern full-stack engineering with security-first practices to deliver reliable, lightning-fast digital solutions.
+          </p>
+        </div>
+
+        <div class="card-grid-3">
+          <!-- Card 1: Web Development -->
+          <div class="feature-card">
+            <div>
+              <div class="card-icon">🌐</div>
+              <h3 class="card-title">Web Development</h3>
+              <p class="card-text">
+                Custom full-stack web applications, high-converting responsive interfaces, dynamic SPAs, and REST API architectures built for performance and speed.
+              </p>
+              <ul class="card-list">
+                <li class="card-list-item">Modern HTML5, CSS3, JavaScript ES6+</li>
+                <li class="card-list-item">React, Node.js & Python backends</li>
+                <li class="card-list-item">Database architecture (SQL / NoSQL)</li>
+                <li class="card-list-item">Speed & SEO optimization</li>
+              </ul>
+            </div>
+            <a href="services.html#web-dev" class="btn btn-secondary btn-sm">Explore Web Services →</a>
+          </div>
+
+          <!-- Card 2: App Development -->
+          <div class="feature-card app">
+            <div>
+              <div class="card-icon">📱</div>
+              <h3 class="card-title">Mobile App Development</h3>
+              <p class="card-text">
+                Cross-platform mobile applications that feel intuitive and responsive, bridging smooth UI experiences with robust state management and backend APIs.
+              </p>
+              <ul class="card-list">
+                <li class="card-list-item">Cross-platform mobile architectures</li>
+                <li class="card-list-item">Interactive UX & Fluid Micro-interactions</li>
+                <li class="card-list-item">Cloud & REST API integration</li>
+                <li class="card-list-item">Offline data persistence</li>
+              </ul>
+            </div>
+            <a href="services.html#app-dev" class="btn btn-secondary btn-sm">Explore App Services →</a>
+          </div>
+
+          <!-- Card 3: Cybersecurity -->
+          <div class="feature-card cyber">
+            <div>
+              <div class="card-icon">🛡️</div>
+              <h3 class="card-title">Cybersecurity & Pentesting</h3>
+              <p class="card-text">
+                Proactive security audits, vulnerability assessments based on OWASP Top 10 guidelines, network packet analysis, and code hardening to protect digital assets.
+              </p>
+              <ul class="card-list">
+                <li class="card-list-item">Web application vulnerability scans</li>
+                <li class="card-list-item">OWASP Top 10 mitigation & defense</li>
+                <li class="card-list-item">Network auditing with Wireshark & Nmap</li>
+                <li class="card-list-item">Secure auth & cryptographic handling</li>
+              </ul>
+            </div>
+            <a href="services.html#cyber-security" class="btn btn-secondary btn-sm">Explore Security Services →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECTS SHOWCASE -->
+    <section class="section" style="background-color: var(--bg-secondary); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">🚀 Selected Works</span>
+          <h2 class="section-title">Featured Engineering Projects</h2>
+          <p class="section-desc">
+            A glimpse into recent full-stack applications, mobile prototypes, and cybersecurity utilities engineered with clean code.
+          </p>
+        </div>
+
+        <div class="card-grid-3">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <div class="project-preview">
+              <div class="project-preview-mock">
+                <div class="mock-pattern"></div>
+                <div style="text-align:center; z-index:1;">
+                  <span style="font-size: 2.5rem;">🔒</span>
+                  <div style="font-family:var(--font-mono); font-size:0.85rem; color:var(--accent-cyan); margin-top:0.25rem;">SecureVault v1.2</div>
+                </div>
+              </div>
+              <span class="tag-badge project-badge-type">Cybersecurity / Web</span>
+            </div>
+            <div class="project-body">
+              <div>
+                <h3 class="project-title">SecureVault — Encrypted Password Manager</h3>
+                <p class="project-desc">
+                  Client-side encrypted credential storage utilizing AES-GCM-256 and PBKDF2 key derivation, complete with real-time breach vulnerability scanning.
+                </p>
+                <div class="project-tags">
+                  <span class="tag-badge">JavaScript</span>
+                  <span class="tag-badge">Crypto API</span>
+                  <span class="tag-badge">Node.js</span>
+                  <span class="tag-badge">OWASP</span>
+                </div>
+              </div>
+              <div class="project-footer">
+                <a href="https://github.com/Cooldude69max" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <span>View Code on GitHub</span> →
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <div class="project-preview">
+              <div class="project-preview-mock">
+                <div class="mock-pattern"></div>
+                <div style="text-align:center; z-index:1;">
+                  <span style="font-size: 2.5rem;">📡</span>
+                  <div style="font-family:var(--font-mono); font-size:0.85rem; color:var(--accent-emerald); margin-top:0.25rem;">NetSentinel Tool</div>
+                </div>
+              </div>
+              <span class="tag-badge project-badge-type">Network Security</span>
+            </div>
+            <div class="project-body">
+              <div>
+                <h3 class="project-title">NetSentinel — Port Scanner & Packet Analyzer</h3>
+                <p class="project-desc">
+                  A multi-threaded Python-based network diagnostic and port auditing utility capable of identifying banner vulnerabilities and unencrypted protocol leaks.
+                </p>
+                <div class="project-tags">
+                  <span class="tag-badge">Python</span>
+                  <span class="tag-badge">Sockets</span>
+                  <span class="tag-badge">Wireshark</span>
+                  <span class="tag-badge">CLI Tool</span>
+                </div>
+              </div>
+              <div class="project-footer">
+                <a href="https://github.com/Cooldude69max" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <span>View Code on GitHub</span> →
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card">
+            <div class="project-preview">
+              <div class="project-preview-mock">
+                <div class="mock-pattern"></div>
+                <div style="text-align:center; z-index:1;">
+                  <span style="font-size: 2.5rem;">🎓</span>
+                  <div style="font-family:var(--font-mono); font-size:0.85rem; color:var(--accent-cyan); margin-top:0.25rem;">CampusConnect</div>
+                </div>
+              </div>
+              <span class="tag-badge project-badge-type">Web & App</span>
+            </div>
+            <div class="project-body">
+              <div>
+                <h3 class="project-title">CampusConnect — Student Hub & Attendance</h3>
+                <p class="project-desc">
+                  Full-stack academic management portal allowing students to monitor lecture schedules, calculate attendance criteria, and share peer study materials securely.
+                </p>
+                <div class="project-tags">
+                  <span class="tag-badge">HTML5/CSS3</span>
+                  <span class="tag-badge">REST API</span>
+                  <span class="tag-badge">Database</span>
+                  <span class="tag-badge">Responsive</span>
+                </div>
+              </div>
+              <div class="project-footer">
+                <a href="https://github.com/Cooldude69max" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <span>View Code on GitHub</span> →
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+          <a href="services.html" class="btn btn-secondary">Explore All Projects & Service Packages →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CALL TO ACTION BANNER -->
+    <section class="container">
+      <div class="cta-banner">
+        <h2 class="cta-title">Looking for a Dedicated Developer or Security Analyst?</h2>
+        <p class="cta-desc">
+          Whether you need a custom web application, a mobile app concept brought to life, or an in-depth security check on your website — let's build something secure and impactful.
+        </p>
+        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+          <a href="contact.html" class="btn btn-primary">Start a Project Consultation</a>
+          <a href="about.html" class="btn btn-secondary">Read My Academic & Tech Journey</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand Info -->
+        <div>
+          <div class="brand-logo">
+            <div class="brand-icon">AR</div>
+            <span class="brand-name">Ayush Raj</span>
+          </div>
+          <p class="footer-brand-desc">
+            BCA 2nd Year Student (2025–2028) at AN College, Patna (Patliputra University). Building systems, full-stack applications, and secure cyber infrastructures.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="about.html" class="footer-link">About & Skills</a></li>
+            <li><a href="services.html" class="footer-link">Services & Works</a></li>
+            <li><a href="contact.html" class="footer-link">Hire & Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Services -->
+        <div>
+          <h4 class="footer-col-title">Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html#web-dev" class="footer-link">Full-Stack Web Dev</a></li>
+            <li><a href="services.html#app-dev" class="footer-link">Mobile App Dev</a></li>
+            <li><a href="services.html#cyber-security" class="footer-link">Cybersecurity Audits</a></li>
+            <li><a href="services.html#consulting" class="footer-link">Code Hardening</a></li>
+          </ul>
+        </div>
+
+        <!-- Connect Profiles -->
+        <div>
+          <h4 class="footer-col-title">Connect</h4>
+          <ul class="footer-links">
+            <li><a href="https://github.com/Cooldude69max" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub: @Cooldude69max</a></li>
+            <li><a href="https://www.linkedin.com/in/ayush-raj-39356b199/" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn: Ayush Raj</a></li>
+            <li><a href="contact.html" class="footer-link">Send Direct Message</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© <span id="currentYear">2026</span> Ayush Raj. Built with semantic HTML5, CSS3, & JS.</div>
+        <div style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent-emerald);">● Systems Normal · OWASP Compliant</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
